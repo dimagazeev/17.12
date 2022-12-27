@@ -28,6 +28,7 @@ abstract public class BaseSeleniumTest {
 
             WebDriverManager.chromedriver().setup();
             /**автоматически скачивает нужный нам браузер последней версии */
+
             driver = new ChromeDriver();
             wait = new WebDriverWait(driver, Duration.ofSeconds(30));
             driver.manage().window().maximize(); // раскрываем браузер на полное окно
