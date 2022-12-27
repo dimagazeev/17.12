@@ -47,15 +47,15 @@ public class SelectIphone extends BaseSeleniunPage {
         wait.until(ExpectedConditions.visibilityOfAllElements(selectColor));
         diagonal.click();
         wait.until(ExpectedConditions.visibilityOfAllElements(diagonal));
-        model.click();
-        wait.until(ExpectedConditions.visibilityOfAllElements(model));
+        //model.click();
+        //wait.until(ExpectedConditions.visibilityOfAllElements(model));
         memory.click();
         wait.until(ExpectedConditions.visibilityOfAllElements(memory));
-        operationalMemory.click();
+        //operationalMemory.click();
         return this;
     }
     public PreviewClass previewClass(){
-        wait.until(ExpectedConditions.visibilityOfAllElements(operationalMemory));
+        //wait.until(ExpectedConditions.visibilityOfAllElements(operationalMemory));
         previewIphone13.click();
         return new PreviewClass();
     }
