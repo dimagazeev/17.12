@@ -26,7 +26,7 @@ public class RegresTest {
                 .then().log().all()
                 .extract().body().jsonPath().getList("data",UserData.class);
         /*.given -> статичный метод из rest assured(с него начинаются все запросы hhtp протокола)
-         * .when(когда) -> какой у нас тип данных и куда обращаемся
+         * . when(когда) -> какой у нас тип данных и куда обращаемся
          * .contentType(ContentType.JSON) -> Формат чтения(указываем,что формат ответа будет JSON)
          * .get -> тут наш GET- запрос
          * .then(затем) -> */
