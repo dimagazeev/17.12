@@ -29,7 +29,7 @@ public class RegresTest {
          * . when(когда) -> какой у нас тип данных и куда обращаемся
          * .contentType(ContentType.JSON) -> Формат чтения(указываем,что формат ответа будет JSON)
          * .get -> тут наш GET- запрос
-         * .then(затем) ->00 */
+         * .thenn(затем) ->00 */
                  users.stream().forEach(x-> Assert.assertTrue(x.getAvatar().contains(x.getId().toString())));
         /**  по каждому пользователю произошел перебор и мы у каждого пользователя получили аватар
          * и сравнили то.что у каждого содержится id */
