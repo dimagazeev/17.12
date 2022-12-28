@@ -55,7 +55,7 @@ public class SelectIphone extends BaseSeleniunPage {
         return this;
     }
     public PreviewClass previewClass(){
-        wait.until(ExpectedConditions.visibilityOfAllElements(operationalMemory));
+        //wait.until(ExpectedConditions.visibilityOfAllElements(operationalMemory));
         previewIphone13.click();
         return new PreviewClass();
     }
