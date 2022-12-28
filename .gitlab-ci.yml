@@ -1,0 +1,12 @@
+image: maven:3.8-openjdk-11
+default:
+  tags:
+    - restAssuredTest
+stages:
+  -test
+
+Integracion test:
+  stage:
+    - test
+  script:
+    - ./mvn clean test
