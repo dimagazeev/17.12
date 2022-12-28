@@ -9,4 +9,4 @@ Integracion test:
   stage:
     - test
   script:
-    - maven clean test
+    - ./maven clean test
