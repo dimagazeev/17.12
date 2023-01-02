@@ -6,7 +6,7 @@ import org.junit.Test;
 public class SecondTest extends BaseSeleniumTest {
     @Test
     public void checkingTest(){
-        MainClass mainClass =new MainClass();
+        MainClass mainClass = new MainClass();
         mainClass.searchIphone()
                  .selectIphone()
                  .choseMyIphone()
