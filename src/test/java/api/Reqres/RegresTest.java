@@ -44,7 +44,7 @@ public class RegresTest {
                     .endsWith - с окончанием...("@reqres.in") */
         //сравнили значения через получения списков (список с автарками) \\\\
         List<String>  avatars = users.stream().map(UserData::getAvatar).collect(Collectors.toList());
-        /* .map(UserData::getAvatar) - выыбираем одно из значений -> "getAvatar"
+        /* .map(UserData::getAvatar) - выбираем одно из значений -> "getAvatar"
            .map(x->x.getId().toString()) вызвали лямду(х) в этой люмде получим getId() и переведем в строку
            .collect(Collectors.toList() этот метод всю отфильтрованную информацию засунет в список
         *  */
