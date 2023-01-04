@@ -29,10 +29,10 @@ public class SelectIphone extends BaseSeleniunPage {
     @FindBy (xpath = "//label[@data-value='12868']")
     private WebElement memory;
 
-    @FindBy (xpath = "//label[@data-value='5866733']")
+    @FindBy (xpath = "//label[@data-value='14213']")
     private WebElement operationalMemory;
 
-    @FindBy (xpath = "//div[@id='c119938058']//img[@class='j-thumbnail thumbnail']")
+    @FindBy (xpath = "//div[@id='c109621905']")
     private WebElement previewIphone13;
 
     public SelectIphone(){
@@ -51,11 +51,11 @@ public class SelectIphone extends BaseSeleniunPage {
         //wait.until(ExpectedConditions.visibilityOfAllElements(model));
         memory.click();
         wait.until(ExpectedConditions.visibilityOfAllElements(memory));
-        //operationalMemory.click();
+        operationalMemory.click();
         return this;
     }
     public PreviewClass previewClass(){
-        //wait.until(ExpectedConditions.visibilityOfAllElements(operationalMemory));
+        wait.until(ExpectedConditions.visibilityOfAllElements(operationalMemory));
         previewIphone13.click();
         return new PreviewClass();
     }
