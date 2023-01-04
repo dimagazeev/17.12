@@ -52,7 +52,7 @@ public class SelectIphone extends BaseSeleniunPage {
         memory.click();
         wait.until(ExpectedConditions.visibilityOfAllElements(memory));
         operationalMemory.click();
-        return this;
+        return this ;
     }
     public PreviewClass previewClass(){
         wait.until(ExpectedConditions.visibilityOfAllElements(operationalMemory));
