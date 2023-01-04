@@ -32,7 +32,7 @@ public class SelectIphone extends BaseSeleniunPage {
     @FindBy (xpath = "//label[@data-value='14213']")
     private WebElement operationalMemory;
 
-    @FindBy (xpath = "//div[@id='c111244823']")
+    @FindBy (xpath = "//div[@id='c109621905']")
     private WebElement previewIphone13;
 
     public SelectIphone(){
