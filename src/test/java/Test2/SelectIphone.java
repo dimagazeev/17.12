@@ -47,7 +47,7 @@ public class SelectIphone extends BaseSeleniunPage {
         wait.until(ExpectedConditions.visibilityOfAllElements(selectColor));
         diagonal.click();
         wait.until(ExpectedConditions.visibilityOfAllElements(diagonal));
-        //model.click();//
+        //model.click();
         //wait.until(ExpectedConditions.visibilityOfAllElements(model));
         memory.click();
         wait.until(ExpectedConditions.visibilityOfAllElements(memory));
