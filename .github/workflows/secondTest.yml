@@ -2,7 +2,7 @@ name: Test Rest Assured
 on: push
 jobs:
   test:
-    runs-test: windows-latest
+    runs-on: windows-latest
     steps:
       - name: Get repository code
         uses: actions/checkout@v3
