@@ -1,0 +1,10 @@
+name: Test Rest Assured
+on: push
+jobs:
+  runs-test: windows-latest
+  steps:
+    - name: Get repository code
+      uses: actions/checkout@v3
+    - name: run test
+      run: mvn test
+
