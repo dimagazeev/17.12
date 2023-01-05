@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: api.Reqres.RegresTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.83 sec <<< FAILURE!
-TimeTest(api.Reqres.RegresTest)  Time elapsed: 0.686 sec  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<2023-01-05T16:42:1[5.3742] > but was:<2023-01-05T16:42:1[] >
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.16 sec <<< FAILURE!
+TimeTest(api.Reqres.RegresTest)  Time elapsed: 0.466 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<2023-01-05T17:11:[41.4664] > but was:<2023-01-05T17:11:[3] >
 	at org.junit.Assert.assertEquals(Assert.java:117)
 	at org.junit.Assert.assertEquals(Assert.java:146)
 	at api.Reqres.RegresTest.TimeTest(RegresTest.java:154)
