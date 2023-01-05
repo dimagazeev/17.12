@@ -7,7 +7,7 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 public class Specification {
-    //// спецификация для запроса \\\\
+    ////// спецификация для запроса \\\\\\
     public static RequestSpecification requestSpec(String url){
         return new RequestSpecBuilder()
                 .setBaseUri(url)                     // наш юрл адрес
