@@ -7,7 +7,7 @@ jobs:
       - name: Get repository code
         uses: actions/checkout@v3
       - name: ddddd
-        run: mvn install
+        run: mvn ci
       - name: run test
         run: mvn test
 
