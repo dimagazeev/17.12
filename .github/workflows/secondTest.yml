@@ -6,6 +6,8 @@ jobs:
     steps:
       - name: Get repository code
         uses: actions/checkout@v3
+      - name: ddddd
+        run: pom install
       - name: run test
         run: mvn test
 
